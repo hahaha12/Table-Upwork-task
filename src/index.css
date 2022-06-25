@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ @font-face {
+  font-family: "LatinKaBlackItalic";
+  src:local("LatinKaBlackItalic")
+   url("./assets/fonts/Latinka\ Black\ Italic.otf");
+}
+/*
+@font-face {
+  font-family: "LatinKaBlack";
+  src: local('LatinKaBlack')
+   url("./fonts/Latinka\ Black.otf");
+}
+
+@font-face {
+  font-family: "LatinKaBoldItalic";
+  src:local('LatinKaBoldItalic')
+   url("./fonts/Latinka\ Bold\ Italic.otf");
+}
+
+@font-face {
+  font-family: "LatinKaBoldItalic";
+  src:local('LatinKaBoldItalic')
+   url("./fonts/Latinka\ Black.otf");
+}
+@font-face {
+  font-family: "LatinKaExtraBold";
+  src:local('LatinKaExtraBold')
+   url("./fonts/Latinka\ ExtraBold.otf");
+}
+@font-face {
+  font-family: "LatinKaExtraBoldItalic";
+  src:local('LatinKaExtraBoldItalic')
+   url("./fonts/Latinka\ ExtraBold.otf");
+}
+
+@font-face {
+  font-family: "LatinKaExtraLightItalic";
+  src: local('LatinKaExtraLightItalic') url("./fonts/Latinka\ ExtraLight\ Italic.otf");
+}
+@font-face {
+  font-family: "LatinKaExtraLight";
+  src: local('LatinKaExtraLight') url("./fonts/Latinka\ExtraLight.otf"); 
+}
+ @font-face {
+  font-family: "LatinKaExtraLight";
+  src: local('LatinKaExtraLight') url("./fonts/Latinka\ExtraLight.otf");
+} */
+* {
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'ADELIA Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'LatinKaBlackItalic'
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
